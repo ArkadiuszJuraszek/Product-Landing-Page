@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Product landing page</title>
+  </head>
+  <body>
+    <header id="header">
+      <img src="https://marketplace.canva.com/EAE78mYI9ug/5/0/1600w/canva-black-and-white-music-studio-logo-Gc2_olDt0BM.jpg" class="logo" alt="logo" width="auto" height="100px" id="header-img">
+      <nav id="nav-bar">
+          <ul class="nav-links">
+            <li><a class="nav-link" href="#about">About</a></li>
+            <li><a class="nav-link" href="#specs">Specs</a></li>
+            <li><a class="nav-link" href="#features">Features</a></li>
+            <li><a class="nav-link" href="#reviews">Reviews</a></li>
+            <li><a class="nav-link" href="#pricing">Pricing</a></li>
+          </ul>
+      </nav>
+      <a class="nav-link" href="#buy-now"><button>Buy now!</button></a>
+    </header>
+    <main>
+      <section id="about">
+        <div class="big-image">
+          <div class="overlay">
+            <h2>JBL Pulse 5</h2>
+            <p>An amazing, brand-new bluetooth speaker created by audiophiles at <a href="https://pl.jbl.com/"><code>JBL</code target="_blank" rel="noopener noreferrer"></a></p>
+          </div>
+        </div>
+      </section>
+      <section id="specs">
+        <h2 class="caption">Specifications</h2>
+        <div class="container">
+          <img src="https://www.mediaexpert.pl/media/cache/resolve/filemanager_original/images/descriptions/images/41/4102130/storage_app_opisy2_jbl_485378a/3.jpg" class="specs-img" alt="specs image">
+          <div class="specs-div">
+            <p>General specification:</p>
+            <ul>
+              <li><code>Model No.:</code> JBL Pulse 5</li>
+              <li><code>Transducers:</code> 1 x 64 mm woofer, 1 x 16 mm tweeter</li>
+              <li><code>Output power:</code> 30 W RMS for Woofer, 10 W RMS for Tweeter</li>
+              <li><code>Power input:</code> 5 V / 3 A</li>
+              <li><code>Frequency response:</code> 58 Hz - 20 kHz</li>
+              <li>(axial,-6 dB)</li>
+              <li><code>Signal-to-noise ratio:</code> > 80 dB</li>
+              <li><code>Battery type:</code> Li-ion polymer 27 WH (equivalent to 3.6 V / 7500 mAh</li>
+              <li><code>Battery charge time:</code> < 4 hours (5 V / 3 A)</li>
+              <li><code>Music play time:</code> up to 12 hours (dependent on volume level and audio content)</li>
+              <li><code>Cable type:</code> USB-C charging cable</li>
+              <li><code>Cable length:</code> 1200 mm / 47.2"</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section id="features">
+        <h2 class="caption">Features</h2>
+        <p>Illuminate the moment with the eye-catching, personalisable, 360-degree light show of the JBL Pulse 5 in sync with the beat of your music as its upfiring driver unleashes deep bass and bold JBL Original Pro Sound in all directions. The sturdy strap lets you take the portable dustproof and waterproof Bluetooth speaker from your backyard to the beach and beyond. Dance until dawn with 12 hours of playtime or use PartyBoost to pair multiple compatible speakers whenever you want to increase the sound — and enhance the experience. <code>Check out the video to learn more!</code></p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/LMwVHPZGc3Y?si=8F2lXW4L8bmhmoNq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen id="video"></iframe>
+      </section>
+      <section id="reviews">
+        <h2 class="caption">Reviews</h2>
+        <p>Would you like to learn more about the product or write about your experience with using it? <code>Check out our review section!</code></p>
+        <div class="form-div">
+          <form id="form" action="https://www.freecodecamp.com/email-submit">
+            <label for="email">Email:</label><br>
+            <input id="email" placeholder="Your email address" type="email" name="email"><br>
+            <label for="name">Name:</label><br>
+            <input id="name" placeholder="Your name" type="text"><br>
+            <label for="review">Review:</label><br>
+            <textarea id="review" name="review" rows="4" cols="50">Your opinion about the product</textarea><br>
+            <input type="submit" value="Submit your review!" id="submit">
+          </form>
+        </div>
+      </section>
+      <section id="pricing">
+        <h2 class="caption">Pricing</h2>
+        <p>For <code>individual</code> clients: <code>320$</code></p>
+        <p>For <code>companies and mass orders: 300$</code></p>
+      </section>
+      <section id="buy-now">
+        <h2 class="caption final">Buy now!</h2>
+      </section>
+  </body>
+</html>
